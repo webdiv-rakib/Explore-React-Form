@@ -5,6 +5,7 @@ import ControlledField from './components/ControlledField/ControlledField'
 import UnControlledField from './components/UnControlledField/UnControlledField'
 import HookForm from './components/HookForm/HookForm'
 import ProductManagement from './components/ProductManagement/ProductManagement'
+import FamilyTree from './components/FamilyTree/FamilyTree'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <ControlledField></ControlledField> */}
       {/* <UnControlledField></UnControlledField> */}
       {/* <HookForm></HookForm> */}
-      <ProductManagement></ProductManagement>
+      {/* <ProductManagement></ProductManagement> */}
+      <FamilyTree></FamilyTree>
     </>
   )
 }
